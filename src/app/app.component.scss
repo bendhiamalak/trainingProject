@@ -1,0 +1,28 @@
+.lead {
+    text-align: justify !important;
+  }
+  
+  .full_height_contact {
+    min-height: 50vh;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 0 35px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  }
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .card-custom {
+    height: 100%;
+  }
+  
+  .row.d-flex .col-lg-4 {
+    display: flex;
+  }
+  
+  .row.d-flex .col-lg-4 .card-custom {
+    flex: 1;
+  }
