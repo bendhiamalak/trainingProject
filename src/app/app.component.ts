@@ -11,11 +11,12 @@ import { Observable, fromEvent, map } from "rxjs";
 import { HeaderComponent } from "../component/header/header.component";
 import { HomeComponent } from "../component/home/home.component";
 import { NumbersComponent } from "../component/numbers/numbers.component";
+import { ProjectsComponent } from "../component/projects/projects.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, HomeComponent, NumbersComponent],
+  imports: [RouterOutlet, HeaderComponent, HomeComponent, NumbersComponent, ProjectsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
